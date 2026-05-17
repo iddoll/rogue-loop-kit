@@ -32,19 +32,19 @@ Additional packages included in the template: **Input System**, **UGUI**, **2D A
 
 ## Folder Structure
 
-The Unity project lives in `My project/`. The kit is organized around a single root namespace folder under `Assets`:
+The Unity project lives in `Rogue-loop-kit/`. The kit is organized around a single root namespace folder under `Assets`:
 
 ```
 rogue-loop-kit/
 ├── LICENSE
 ├── README.md
-└── My project/
+└── Rogue-loop-kit/
     ├── Assets/
     │   ├── RogueLoopKit/
-    │   │   ├── Core/           # Game loop, events, service locator / bootstrap
+    │   │   ├── Core/           # Core gameplay bootstrap and shared systems
     │   │   ├── Player/         # Movement, stats, combat receiver
     │   │   ├── Enemies/        # Enemy entities, health, loot drops
-    │   │   ├── AI/             # Behavior trees / state machines, targeting
+    │   │   ├── AI/             # Enemy behaviors and targeting systems
     │   │   ├── Skills/         # Skill definitions, executors, cooldowns
     │   │   ├── Upgrades/       # Upgrade application, run modifiers
     │   │   ├── Spawning/       # Wave spawner, spawn points, pooling
@@ -78,7 +78,7 @@ rogue-loop-kit/
    ```
 
 2. Open the project in Unity Hub:
-   - **Add** → select the `My project` folder inside the cloned repository.
+   - **Add** → select the `Rogue-loop-kit` folder inside the cloned repository.
    - Unity will import packages from `Packages/manifest.json` on first open.
 
 3. Open the sample scene:
@@ -133,7 +133,7 @@ To add screenshots locally, place images under `docs/screenshots/` and reference
 
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for the full text.
 
-Copyright (c) 2026 Білоус Ілля
+Copyright (c) 2025 Білоус Ілля
 
 ---
 
@@ -171,19 +171,19 @@ Copyright (c) 2026 Білоус Ілля
 
 ## Структура папок
 
-Проєкт Unity знаходиться в `My project/`. Набір організований навколо кореневої папки простору імен у `Assets`:
+Проєкт Unity знаходиться в `Rogue-loop-kit/`. Набір організований навколо кореневої папки простору імен у `Assets`:
 
 ```
 rogue-loop-kit/
 ├── LICENSE
 ├── README.md
-└── My project/
+└── Rogue-loop-kit/
     ├── Assets/
     │   ├── RogueLoopKit/
-    │   │   ├── Core/           # Ігровий цикл, події, bootstrap
+    │   │   ├── Core/           # Bootstrap геймплею та спільні системи
     │   │   ├── Player/         # Рух, стати, отримання урону
     │   │   ├── Enemies/        # Сутності ворогів, здоров’я, лут
-    │   │   ├── AI/             # Поведінка, наведення, стани
+    │   │   ├── AI/             # Поведінка ворогів і системи наведення
     │   │   ├── Skills/         # Визначення навичок, виконання, кулдауни
     │   │   ├── Upgrades/       # Застосування покращень, модифікатори забігу
     │   │   ├── Spawning/       # Спавнер хвиль, точки, пулінг
@@ -217,7 +217,7 @@ rogue-loop-kit/
    ```
 
 2. Відкрийте проєкт у Unity Hub:
-   - **Add** → виберіть папку `My project` у клонованому репозиторії.
+   - **Add** → виберіть папку `Rogue-loop-kit` у клонованому репозиторії.
    - При першому відкритті Unity імпортує пакети з `Packages/manifest.json`.
 
 3. Відкрийте зразкову сцену:
@@ -272,4 +272,4 @@ rogue-loop-kit/
 
 Проєкт поширюється за ліцензією **MIT**. Повний текст — у файлі [LICENSE](LICENSE).
 
-Copyright (c) 2026 Білоус Ілля
+Copyright (c) 2025 Білоус Ілля

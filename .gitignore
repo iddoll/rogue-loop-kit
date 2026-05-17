@@ -1,4 +1,4 @@
-# Repository root. Unity-specific ignores live in "My project/.gitignore".
+# Repository root. Unity-specific ignores live in "Rogue-loop-kit/.gitignore".
 #
 # OS / editor
 .DS_Store
@@ -7,15 +7,15 @@ Thumbs.db
 *~
 
 # Unity project subfolder (fallback if nested .gitignore is missed)
-My project/[Ll]ibrary/
-My project/[Tt]emp/
-My project/[Oo]bj/
-My project/[Bb]uild/
-My project/[Bb]uilds/
-My project/[Ll]ogs/
-My project/[Uu]ser[Ss]ettings/
-My project/[Uu]nityLockfile
-My project/.utmp/
+Rogue-loop-kit/[Ll]ibrary/
+Rogue-loop-kit/[Tt]emp/
+Rogue-loop-kit/[Oo]bj/
+Rogue-loop-kit/[Bb]uild/
+Rogue-loop-kit/[Bb]uilds/
+Rogue-loop-kit/[Ll]ogs/
+Rogue-loop-kit/[Uu]ser[Ss]ettings/
+Rogue-loop-kit/[Uu]nityLockfile
+Rogue-loop-kit/.utmp/
 *.log
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.

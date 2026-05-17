@@ -1,18 +1,21 @@
-# This .gitignore file should be placed at the root of your Unity project directory
+# Repository root. Unity-specific ignores live in "My project/.gitignore".
 #
-# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
-#
-# Recommended: add any editor/OS/tool-specific ignore rules from the Global/ templates as needed.
-# See: https://github.com/github/gitignore/tree/main/Global
-#
-.utmp/
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Unity project subfolder (fallback if nested .gitignore is missed)
+My project/[Ll]ibrary/
+My project/[Tt]emp/
+My project/[Oo]bj/
+My project/[Bb]uild/
+My project/[Bb]uilds/
+My project/[Ll]ogs/
+My project/[Uu]ser[Ss]ettings/
+My project/[Uu]nityLockfile
+My project/.utmp/
 *.log
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
